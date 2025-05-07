@@ -1,11 +1,20 @@
 {
   "name": "additio/ios-receipts-api",
+  "description": "A library to get information on auto-renewing subscriptions from the App Store receipts API adapted for Additio purposes",
+  "homepage": "https://github.com/additio/ios-receipts-api",
   "license": "MIT",
-  "type": "project",
+  "type": "library",
+  "keywords": ["app store", "subscriptions", "ios", "receipts", "apple", "additio"],
+  "authors": [
+    {
+      "name": "Pere Garriga",
+      "email": "pere@additioapp.com"
+    }
+  ],
   "require": {
     "php": ">=7.4",
     "ext-json": "*",
-    "guzzlehttp/guzzle": "^7.0"
+    "guzzlehttp/guzzle": "^7.9.3"
   },
   "autoload": {
     "psr-4": {
